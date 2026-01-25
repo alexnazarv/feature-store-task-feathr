@@ -1,0 +1,20 @@
+[project]
+name = "feature-store-task"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10, <3.11"
+dependencies = [
+    "feathr>=1.0.0",
+    "ipykernel>=7.1.0",
+    "numpy<2",
+    "pandas<3.0.0",
+    "pyspark==3.5.7",
+]
+
+[dependency-groups]
+dev = [
+    "pip>=25.3",
+    "ruff>=0.14.14",
+    "uv>=0.9.26",
+]

@@ -1,0 +1,22 @@
+api_version: 1
+project_config:
+  project_name: test_project
+
+spark_config:
+  # choice for spark runtime. Currently support: azure_synapse, databricks, local
+  spark_cluster: 'local'
+  spark_result_output_parts: '1'
+  local:
+    master: 'local[*]'
+    feathr_runtime_location: "{jar_name}"
+
+online_store:
+  redis:
+    # Redis configs to access Redis cluster
+    host: 'redis'
+    port: 6379
+    ssl_enabled: False
+
+feature_registry:
+  # The API endpoint of the registry service
+  api_endpoint: "http://feathr-ui-and-registry:8000/api/v1"

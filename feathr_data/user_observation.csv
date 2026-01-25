@@ -1,0 +1,6 @@
+user_id,product_id,event_timestamp,product_rating
+u1,p1,2023-01-01,5
+u1,p2,2023-01-02,4
+u2,p1,2023-01-03,3
+u2,p3,2023-01-04,5
+u3,p2,2023-01-05,2
