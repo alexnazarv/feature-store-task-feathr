@@ -23,15 +23,10 @@
 
 
 ## TO DO
-- [x] Проверить есть ли возможность использовать hdfs как offline store
-- [x] Сбилдил Feathr registry & UI в docker image  
-- [x] Сделал в docker compose hdfs + Feathr + Airflow
-- [x] Конфигурирую Feathr на использовании registry на sqlite + local spark engine  
-- [] Тестирую из ipynb тетрадки возможности создания feature и регистрации в проект + материализацию feature в offline storage в формате parquet  
-- [] Тестирую из ipynb тетрадки возможности создания feature и регистрации в проект + материализацию feature в offline storage в формате iceberg  
-- [] Тестирую возможность задания feature и материализации в offline storage в airflow репозитории с использованием spark local как engine  
-- [] Тестирую возможность задания feature и материализации в offline storage в airflow репозитории с использованием spark cluster как engine
-
+[x] Сбилдить Feathr Registry & UI в docker image  
+[x] Сделать docker compose HDFS + Feathr  
+[] Проверить возможность использовать Feathr как Semantic Layer  
+  [] Получить план запроса feature таблицы из Feathr, а выполнять из своей spark session  
 
 ## Additional information
 
