@@ -37,3 +37,5 @@
     ```bash
     docker run -it --rm   -p 8889:8888   -p 3000:80   -p 7082:7080   -e GRANT_SUDO=yes   -v /Users/alexeynazarov/Desktop/feature-store-task/feathr_data:/home/jovyan/work/product_recommendation feathrfeaturestore/feathr-sandbox:releases-v1.0.0
     ```
+    - Feature REgistry UI: `localhost:3000`
+    - Notebook guide: `localhost:8889`
