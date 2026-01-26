@@ -12,3 +12,4 @@ hadoop_datanode*
 hadoop_namenode
 feathr_data/product_recommendation*
 minio_data/*
+debug

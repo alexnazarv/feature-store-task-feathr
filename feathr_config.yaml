@@ -1,6 +1,6 @@
 api_version: 1
 project_config:
-  project_name: test_project
+  project_name: product_recommendation
 
 spark_config:
   # choice for spark runtime. Currently support: azure_synapse, databricks, local
@@ -19,4 +19,4 @@ online_store:
 
 feature_registry:
   # The API endpoint of the registry service
-  api_endpoint: "http://feathr-ui-and-registry:8000/api/v1"
+  api_endpoint: "http://localhost:8000/api/v1"
