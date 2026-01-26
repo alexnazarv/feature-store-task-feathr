@@ -52,6 +52,7 @@
     ```bash
     docker compose -f docker-compose-minio.yaml up -d
     ```
+1. Open `local_quickstart_notebook_adapted.ipynb`
 
 ### Clean up
 1. Docker compose down
