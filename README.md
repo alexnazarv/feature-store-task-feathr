@@ -46,9 +46,9 @@
 ## TO DO
 1. [x] Сбилдить Feathr Registry & UI в docker image  
 1. [x] Сделать docker compose HDFS + Feathr  
-1. ❌ Возможность использовать Feathr как Semantic Layer  
-    1. ❌ Получить план запроса feature таблицы из Feathr
-    1. ❌ Выполнить материализацию, используя план запроса Feathr, в своей spark session  
+1. [❌] Возможность использовать Feathr как Semantic Layer  
+    1. [❌] Получить план запроса feature таблицы из Feathr
+    1. [❌] Выполнить материализацию, используя план запроса Feathr, в своей spark session  
 1. [ ] Регистрация features в Registry после кастомной материализации
 1. [ ] Переиспользование features
     1. [ ] Импортировать код зарегистрированных features
