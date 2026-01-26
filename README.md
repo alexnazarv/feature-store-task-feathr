@@ -9,6 +9,22 @@
 1. Единственная опция прод базы для Feature Registry это mssql
 1. Работает только на python <= 3.10
 
+## TO DO
+1. [x] Сбилдить Feathr Registry & UI в docker image  
+1. [x] Сделать docker compose HDFS + Feathr  
+1. [❌] Возможность использовать Feathr как Semantic Layer  
+    1. [❌] Получить план запроса feature таблицы из Feathr
+    1. [❌] Выполнить материализацию, используя план запроса Feathr, в своей spark session  
+1. [ ] Регистрация features в Registry после кастомной материализации
+1. [ ] Переиспользование features
+    1. [ ] Импортировать код зарегистрированных features
+    1. [ ] Определить DerivedFeature на импортированных из Registry
+    1. [ ] Зарегистрировать новую DerivedFeature в Registry
+1. [ ] Возможность описать dataset в yaml или HOCON
+1. [ ] Использовать MSSQL как Registry DB
+1. [ ] Разделить Registry и UI на два image
+1. [x] Сделать тесты на minio без dev container и HDFS
+
 ## How to reproduce the test
 1. Have `Docker` and `git` installed
 1. Build feathr docker image
@@ -42,22 +58,6 @@
     ```bash
     docker compose down -v
     ```
-
-## TO DO
-1. [x] Сбилдить Feathr Registry & UI в docker image  
-1. [x] Сделать docker compose HDFS + Feathr  
-1. [❌] Возможность использовать Feathr как Semantic Layer  
-    1. [❌] Получить план запроса feature таблицы из Feathr
-    1. [❌] Выполнить материализацию, используя план запроса Feathr, в своей spark session  
-1. [ ] Регистрация features в Registry после кастомной материализации
-1. [ ] Переиспользование features
-    1. [ ] Импортировать код зарегистрированных features
-    1. [ ] Определить DerivedFeature на импортированных из Registry
-    1. [ ] Зарегистрировать новую DerivedFeature в Registry
-1. [ ] Возможность описать dataset в yaml или HOCON
-1. [ ] Использовать MSSQL как Registry DB
-1. [ ] Разделить Registry и UI на два image
-1. [x] Сделать тесты на minio без dev container и HDFS
 
 ## Additional information
 
