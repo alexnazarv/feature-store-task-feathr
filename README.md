@@ -52,7 +52,7 @@
     ```bash
     docker compose -f docker-compose-minio.yaml up -d
     ```
-1. In minio UI localhost:9001 log in (user and pwd `minioadmin`) and create bucket data_bucket
+1. In minio UI localhost:9001 log in (user and pwd `minioadmin`) and create bucket `data_bucket`
 1. Open `local_quickstart_notebook_adapted.ipynb`
 
 ### Clean up
