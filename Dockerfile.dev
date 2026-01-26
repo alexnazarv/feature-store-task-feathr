@@ -23,7 +23,7 @@ COPY pyproject.toml ./
 
 # RUN uv python install $UV_PYTHON_VERSION && \
 #     uv python pin --global $UV_PYTHON_VERSION && \
-RUN uv sync
+# RUN uv sync
 
 ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
 ENV PYTHONDONTWRITEBYTECODE=1
