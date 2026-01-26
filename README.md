@@ -1,4 +1,4 @@
-## Result
+## Вывод
 
 **Feathr не подходит как Feature Store или как Seamantic Layer**
 
